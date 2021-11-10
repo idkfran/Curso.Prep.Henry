@@ -1,0 +1,29 @@
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+FOR: Usando esto, podremos crear bucles para de esta forma automatizar alguna tarea repetitiva. ¿Como hacemos? Facil, tenemos que tener 3 cosas: Primero, ponerle valor a algo. Segundo, colocar una condicion que sea true. Y por ultimo, de que manera se va incrementando.
+
+Ejemplo de un for: 
+	
+	for ( X = 1 ; X < 10 ; X++)
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+&&: Esto sería AND ("Y") que sirve para utilizarlo en los for, de forma que podemos agrupar varios parametros en un mismo for. ¿Que significa? Si ambos son correctos, la funcion nos dará true, si uno o ambos son incorrectos, nos dará false.
+
+Ejemplo de &&:
+
+	for ( 10 > 5 && 1 === 1 ) {} // true
+
+	for ( 10 > 5 && 1 === 2 ) {} // false
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+||: Tiene una funcion similar a los "&&", pero esto sería OR ("O"). Tambien va dentro del for pero si un solo parametro es true, toda la funcion es true
+
+Ejemplo de ||:
+
+	for ( 2 < 1 || 2 === 2 ) // true
+	for ( 2 < 1 || 3 === 2 ) // false
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+!: Este simbolo significa NOT, nos dará como resultado lo contrario a lo que estamos pidiendo, es decir, si algo nos da true, al poner en el parametro el simbolo NOT (!) automaticamente negará esto.
+
+Ejemplo de !:
+
+	( ! ( 1 === 1 ) ) // false
+	!false // truea
+———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
